@@ -532,6 +532,15 @@ blockquote.blockstyle.border-color-yellow>span.triangle:before {
 .detail_skill{
     padding-top: 2px;
 }
+.head_edu{
+    padding-bottom: 0px;
+}
+.first_skills{
+    width: 200px;
+}
+.first_skills h1{
+    font-size: 19px;
+}
 /* Responsive Small screen */
 @media only screen and (max-width: 1150px) {
     .photo{
@@ -552,6 +561,9 @@ blockquote.blockstyle.border-color-yellow>span.triangle:before {
     .experience{
         margin: 10px 50px;
     }
+    .skills_cont{
+        margin: 10px 30px;
+    }
   
 }
 @media only screen and (max-width: 1000px) {
@@ -566,6 +578,14 @@ blockquote.blockstyle.border-color-yellow>span.triangle:before {
     .card_exp{
         width: 300px;
     }
+    .head_edu{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .detail_edu{
+        padding-left: 10px;
+    }
+    
 }
 @media only screen and (max-width: 800px) {
     .intro{
