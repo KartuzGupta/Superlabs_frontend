@@ -691,4 +691,7 @@ blockquote.blockstyle.border-color-yellow>span.triangle:before {
     .progress_container{
         grid-template-columns: repeat(1, 300px);
     }
+    .footer{
+        font-size: 12px;
+    }
 }
