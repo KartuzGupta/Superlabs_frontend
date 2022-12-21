@@ -1,3 +1,3 @@
 # Superlabs_frontend
 
-Deployed href[https://superlabs-frontend.netlify.app/][here]
+Deployed href[here](https://superlabs-frontend.netlify.app/)]
