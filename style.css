@@ -545,6 +545,40 @@ blockquote.blockstyle.border-color-yellow>span.triangle:before {
     box-shadow: 0 10px 15px rgb(66 66 66 / 19%);
     margin: 10px;
 }
+
+/* Footer */
+.footer{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(213, 242, 252, 0.471);
+    padding: 40px;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+.footer a:hover{
+    color: gray;
+}
+.logo_foot{
+    margin-bottom: 10px;
+}
+.social_foot{
+    display: flex;
+    flex-direction: row;
+}
+.social_foot i{
+    font-size: 25px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.footer img{
+    width: 20px;
+    height: auto;
+}
 /* Responsive Small screen */
 @media only screen and (max-width: 1150px) {
     .photo{
