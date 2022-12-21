@@ -541,6 +541,10 @@ blockquote.blockstyle.border-color-yellow>span.triangle:before {
 .first_skills h1{
     font-size: 19px;
 }
+.card_edu{
+    box-shadow: 0 10px 15px rgb(66 66 66 / 19%);
+    margin: 10px;
+}
 /* Responsive Small screen */
 @media only screen and (max-width: 1150px) {
     .photo{
@@ -581,6 +585,9 @@ blockquote.blockstyle.border-color-yellow>span.triangle:before {
     .head_edu{
         flex-direction: column;
         align-items: flex-start;
+    }
+    .first_skills{
+        width: 100%;
     }
     .detail_edu{
         padding-left: 10px;
