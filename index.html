@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8e8774c548.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <!-- MDB -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.css"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Resume</title>
+</head>
+<script>
+    window.console = window.console || function(t) {};
+  </script>
+  
+    
+    
+    <script>
+    if (document.location.search.match(/type=embed/gi)) {
+      window.parent.postMessage("resize", "*");
+    }
+  </script>
+<body>
+    <div class="to-top">
+        <button onclick="topFunction()" id="scrollToTopBtn" title="Go to top"><i class="fa-solid fa-angle-up toTop"></i></button>
+    </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#employment">Employment</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="tel:+1.888.867.7001">Contact</a>
+    </div>
+    <div><span style="font-size:30px;cursor:pointer;color:rgb(4, 4, 19);position:fixed;top:2px;left:2px;z-index:97;" onclick="openNav()">&#9776;</span></div>
+    <div class="logo">
+        <div><img src="./logo.svg" alt="Logo"></div>
+        <div class="logo_name">Developers</div>
+    </div>
+    <div id="topBar">
+
+    </div>
+    <div class="intro">
+        <div class="photo">
+            <img src="./client_photo.jpg" alt="Photo" srcset="">
+        </div>
+        <div class="txt" data-aos="zoom-in-right" data-aos-once="true">
+            <div class="name">
+                Vladimir Mitrovic
+            </div>
+            <div class="minor">
+                <span>Computer Graphics Developer in Belgrade, Serbia</span>
+                <br> 
+                <span>Member since November 1, 2015</span> 
+            </div>
+            <div class="details">
+                <p>Vladimir has been a professional developer for eleven years. Most recently, he's been focusing on augmented reality, computational design, and computer graphics. He has architected complex software systems, done UX design, led teams, and spoken at conferences. He values simplicity and efficiency and loves working on interactive products no matter the platform.</p>
+            </div>
+            <div class="tags">
+                <span class="tag"><a href="">Augmented Reality</a></span>
+                <span class="tag"><a href="">Virtual Reality</a></span>
+                <span class="tag"><a href="">Unity 3D</a></span>
+                <span class="tag"><a href="">C#</a></span>
+                <span class="tag"><a href="">iOS</a></span>
+                <span class="tag"><a href="">X-Code</a></span>
+                <span class="tag"><a href="">GIt</a></span>
+                <span class="tag"><a href="">Clojure</a></span>
+                <span class="tag"><a href="">Swift</a></span>
+                <span class="tag"><a href="">Objective-C</a></span>
+                <span class="tag"><a href="">Algorithms</a></span>
+                <span class="tag"><a href="">Computer-vision</a></span>
+                <span class="tag"><a href="">OpenGL</a></span>
+            </div>
+            <div class="social">
+                <!-- Facebook -->
+                <a href="#!" role="button">
+                    <i class="fab fa-facebook-f fa-lg"></i>
+                </a>
+
+                <!-- Twitter -->
+                <a href="#!" role="button">
+                    <i class="fab fa-twitter fa-lg"></i>
+                </a>
+                
+                <!-- Beance -->
+                <a href="#!" role="button">
+                    <i class="fa-brands fa-behance"></i>
+                </a>
+                
+                <!-- Instagram -->
+                <a href="#!" role="button">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <!-- Linked in -->
+                <a href="#!" role="button">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+
+    <section id="block_content">
+        <div class="col-md-6 container">
+            <blockquote class="blockstyle">
+              <span class="triangle"><span style="color:black; font-weight:bold;">the most amazing project</span><span> I've created is Itinerant, a generative weather forecast application utilizing signed-distance fields for real-time rendering on mobile phone hardware.</span>
+           </blockquote>
+        </div>
+    </section>
+
+    <div id="counter">
+        <div class="card">
+            <i class="fa-solid fa-briefcase"></i>
+            <div class="counter-value" data-count="8">0</div>
+            <div class="heading">yrs of experience</div>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-tarp"></i>            
+            <div class="counter-value" data-count="15">7</div>
+            <div class="heading">projects done</div>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-memory"></i>
+            <div class="counter-value" data-count="16">8</div>
+            <div class="heading">skills acquired</div>
+        </div>
+    </div>
+    
+    <div class="progress_container">
+          <div class="progress-outer">
+            <strong>C#</strong>
+              <div class="progress">
+                  <div class="progress-bar progress-bar-info progress-bar-striped active" style="width:80%; box-shadow:-1px 10px 10px rgba(91, 192, 222, 0.7);"></div>
+                  <div class="progress-value">8 yrs</div>
+              </div>
+          </div>
+          <div class="progress-outer">
+              <strong>C++</strong>
+              <div class="progress">
+                  <div class="progress-bar progress-bar-success progress-bar-striped active" style="width:70%; box-shadow:-1px 10px 10px rgba(116, 195, 116,0.7);"></div>
+                  <div class="progress-value">7 yrs</div>
+              </div>
+          </div>
+          <div class="progress-outer">
+              <strong>Augmented Reality</strong>
+              <div class="progress">
+                  <div class="progress-bar progress-bar-warning progress-bar-striped active" style="width:40%; box-shadow:-1px 10px 10px rgba(240, 173, 78,0.7);"></div>
+                  <div class="progress-value">4 yrs</div>
+              </div>
+          </div>
+          
+          <div class="progress-outer">
+            <strong>Virtual Reality</strong>
+            <div class="progress">
+                <div class="progress-bar progress-bar-warning progress-bar-striped active" style="width:60%; box-shadow:-1px 10px 10px rgba(240, 173, 78,0.7);"></div>
+                <div class="progress-value">6 yrs</div>
+            </div>
+        </div>
+    </div>
+
+    <h1 style="text-align:center;margin-top:40px;font-weight:bold;color:black;" id="employment">Employment</h1>
+    <hr style="width:100px; margin:auto; display: block;font-weight:bolder;">
+    <div class="wrapper">
+        <div class="row row-1" data-aos="fade-up" data-aos-once="true">
+          <section>
+            <i class="icon fa-solid fa-circle"></i>
+            <div class="details">
+              <span class="title">Founder</span>
+              <span>2015 - PRESENT</span>
+            </div>
+            <h6>Brutalism</h6>
+            <ul>
+                <li>Founded my private art practice. Systems, optics, and aesthetics.</li>
+                <li>Worked with projects involving the human visual system, which has evolved to take in and interpret an enormous amount of information many times per second, leaving its massively parallel information processing capacity largely unused.</li>
+                <li>Approached visualization in a more innate and sensory-driven fashion–higher bandwidth and lower precision.</li>
+            </ul>
+            <div>Technologies: Shaders, OpenGL, Clojure, Unity3D, Unity, C#, ShaderLab, Unity Shaders, Color Theory, Color Schemes, Rust, C++</div>
+            <div class="bottom">
+            </div>
+          </section>
+        </div>
+        <div class="row row-2" data-aos="fade-up" data-aos-once="true">
+            <section>
+                <i class="icon fa-solid fa-circle"></i>
+                <div class="details">
+                  <span class="title">Augmented Reality Developer</span>
+                  <span>2020 - 2021</span>
+                </div>
+                <h6>Nelu, LLC</h6>
+                <ul>
+                    <li>Founded my private art practice. Systems, optics, and aesthetics.</li>
+                    <li>Worked with projects involving the human visual system, which has evolved to take in and interpret an enormous amount of information many times per second, leaving its massively parallel information processing capacity largely unused.</li>
+                    <li>Approached visualization in a more innate and sensory-driven fashion–higher bandwidth and lower precision.</li>
+                </ul>
+                <div>Technologies: Shaders, OpenGL, Clojure, Unity3D, Unity, C#, ShaderLab, Unity Shaders, Color Theory, Color Schemes, Rust, C++</div>
+                <div class="bottom">
+                </div>
+              </section>
+        </div>
+        <div class="row row-1" data-aos="fade-up" data-aos-once="true"> 
+            <section>
+                <i class="icon fa-solid fa-circle"></i>
+                <div class="details">
+                  <span class="title">Founder</span>
+                  <span>2015 - PRESENT</span>
+                </div>
+                <h6>Brutalism</h6>
+                <ul>
+                    <li>Founded my private art practice. Systems, optics, and aesthetics.</li>
+                    <li>Worked with projects involving the human visual system, which has evolved to take in and interpret an enormous amount of information many times per second, leaving its massively parallel information processing capacity largely unused.</li>
+                    <li>Approached visualization in a more innate and sensory-driven fashion–higher bandwidth and lower precision.</li>
+                </ul>
+                <div>Technologies: Shaders, OpenGL, Clojure, Unity3D, Unity, C#, ShaderLab, Unity Shaders, Color Theory, Color Schemes, Rust, C++</div>
+                <div class="bottom">
+                </div>
+              </section>
+        </div>
+        <div class="row row-2" data-aos="fade-up" data-aos-once="true">
+            <section>
+                <i class="icon fa-solid fa-circle"></i>
+                <div class="details">
+                  <span class="title">Founder</span>
+                  <span>2015 - PRESENT</span>
+                </div>
+                <h6>Brutalism</h6>
+                <ul>
+                    <li>Founded my private art practice. Systems, optics, and aesthetics.</li>
+                    <li>Worked with projects involving the human visual system, which has evolved to take in and interpret an enormous amount of information many times per second, leaving its massively parallel information processing capacity largely unused.</li>
+                    <li>Approached visualization in a more innate and sensory-driven fashion–higher bandwidth and lower precision.</li>
+                </ul>
+                <div>Technologies: Shaders, OpenGL, Clojure, Unity3D, Unity, C#, ShaderLab, Unity Shaders, Color Theory, Color Schemes, Rust, C++</div>
+                <div class="bottom">
+                </div>
+              </section>
+        </div>
+        <div class="row row-1" data-aos="fade-up" data-aos-once="true">
+            <section>
+                <i class="icon fa-solid fa-circle"></i>
+                <div class="details">
+                  <span class="title">Founder</span>
+                  <span>2015 - PRESENT</span>
+                </div>
+                <h6>Brutalism</h6>
+                <ul>
+                    <li>Founded my private art practice. Systems, optics, and aesthetics.</li>
+                    <li>Worked with projects involving the human visual system, which has evolved to take in and interpret an enormous amount of information many times per second, leaving its massively parallel information processing capacity largely unused.</li>
+                    <li>Approached visualization in a more innate and sensory-driven fashion–higher bandwidth and lower precision.</li>
+                </ul>
+                <div>Technologies: Shaders, OpenGL, Clojure, Unity3D, Unity, C#, ShaderLab, Unity Shaders, Color Theory, Color Schemes, Rust, C++</div>
+                <div class="bottom">
+                </div>
+              </section>
+        </div>
+        <div class="row row-2" data-aos="fade-up" data-aos-once="true">
+            <section>
+                <i class="icon fa-solid fa-circle"></i>
+                <div class="details">
+                  <span class="title">Founder</span>
+                  <span>2015 - PRESENT</span>
+                </div>
+                <h6>Brutalism</h6>
+                <ul>
+                    <li>Founded my private art practice. Systems, optics, and aesthetics.</li>
+                    <li>Worked with projects involving the human visual system, which has evolved to take in and interpret an enormous amount of information many times per second, leaving its massively parallel information processing capacity largely unused.</li>
+                    <li>Approached visualization in a more innate and sensory-driven fashion–higher bandwidth and lower precision.</li>
+                </ul>
+                <div>Technologies: Shaders, OpenGL, Clojure, Unity3D, Unity, C#, ShaderLab, Unity Shaders, Color Theory, Color Schemes, Rust, C++</div>
+                <div class="bottom">
+                </div>
+              </section>
+        </div>
+      </div>
+     
+      <h1 style="text-align:center;margin-top:40px;font-weight:bold;color:black;" id="experience">Experience</h1>
+      <hr style="width:100px; margin:auto; display: block;font-weight:bolder;">
+      <div class="experience">
+        <div class="card_exp">
+          <div class="head_card">
+            <strong><h5>Aesthetic Engine 2</h5></strong>
+            <a href="http://brutalism.rs/project/aesthetic-engine-2/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+          <div class="detail_card">
+            Aesthetic Engine 2 is simultaneously a web browser, a generative data sculpture, and a shape-shifting painting. It visualizes the hidden complexity behind our everyday web browsing.
+            <br>
+            Each web page is rendered using predefined rules for different groups of HTML tags. The content, which is visible to users in conventional web browsers (paragraphs, images, etc.), is rendered using the thickest shapes. Scaffolding around visible content—all of the “invisible” internal stuff—is rendered using thinner strands escaping from the middle of the structure. JavaScript code, CSS files, and all other externally loaded resources are rendered as twisting lines wrapping themselves around the structure. Lastly, the web page’s code is scraped for all outgoing links (URLs) and each of them is rendered as a long line escaping from the structure outward, therefore visualizing the “connectedness” of the page.
+          </div>
+        </div>
+        <div class="card_exp">
+          <div class="head_card">
+            <strong><h5>App Dev</h5></strong>
+            <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+          <div class="detail_card">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi ipsa cupiditate delectus perspiciatis fugiat, provident necessitatibus. Nihil sunt ea laudantium. Dolore, quidem ipsum repellendus illo cum voluptas magnam qui doloribus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quia omnis ut molestias non aspernatur minima quaerat odio ducimus debitis error eveniet, est, cum necessitatibus ipsum, quibusdam doloribus optio eaque.
+          </div>
+        </div>
+        <div class="card_exp">
+          <div class="head_card">
+            <strong><h5>Aesthetic Engine 2</h5></strong>
+            <a href="http://brutalism.rs/project/aesthetic-engine-2/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+          <div class="detail_card">
+            Aesthetic Engine 2 is simultaneously a web browser, a generative data sculpture, and a shape-shifting painting. It visualizes the hidden complexity behind our everyday web browsing.
+            <br>
+            Each web page is rendered using predefined rules for different groups of HTML tags. The content, which is visible to users in conventional web browsers (paragraphs, images, etc.), is rendered using the thickest shapes. Scaffolding around visible content—all of the “invisible” internal stuff—is rendered using thinner strands escaping from the middle of the structure. JavaScript code, CSS files, and all other externally loaded resources are rendered as twisting lines wrapping themselves around the structure. Lastly, the web page’s code is scraped for all outgoing links (URLs) and each of them is rendered as a long line escaping from the structure outward, therefore visualizing the “connectedness” of the page.
+          </div>
+        </div>
+        <div class="card_exp">
+          <div class="head_card">
+            <strong><h5>App Dev</h5></strong>
+            <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+          <div class="detail_card">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi ipsa cupiditate delectus perspiciatis fugiat, provident necessitatibus. Nihil sunt ea laudantium. Dolore, quidem ipsum repellendus illo cum voluptas magnam qui doloribus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quia omnis ut molestias non aspernatur minima quaerat odio ducimus debitis error eveniet, est, cum necessitatibus ipsum, quibusdam doloribus optio eaque.
+          </div>
+        </div>
+      </div>
+      
+      <div class="skills_cont">
+        <div>
+          <h1 style="text-align:center;margin-top:40px;font-weight:bold;color:black;" id="skills">Skills</h1>
+        </div>
+          
+        <div class="skills">
+          <div class="card_skills">
+            <div class="head_skill head_card">
+              <strong><h5>Languages</h5></strong>
+            </div>
+            <div class="detail_skill detail_card">
+              C#, Objective-C, Swift, Clojure, C++, C, Lua, ShaderLab, Rust
+
+            </div>
+          </div>
+          <div class="card_skills">
+            <div class="head_skill head_card">
+              <strong><h5>Frameworks</h5></strong>
+            </div>
+            <div class="detail_skill detail_card">
+              Unity, Unity3D, ARKit
+
+            </div>
+          </div>
+          <div class="card_skills">
+            <div class="head_skill head_card">
+              <strong><h5>Tools</h5></strong>
+            </div>
+            <div class="detail_skill detail_card">
+              Xcode, Git
+
+            </div>
+          </div>
+          <div class="card_skills">
+            <div class="head_skill head_card">
+              <strong><h5>Platform</h5></strong>
+            </div>
+            <div class="detail_skill detail_card">
+              iOS, MacOS, Android, ARCore, Oculus, Oculus Rift
+
+            </div>
+          </div>
+          <div class="card_skills">
+            <div class="head_skill head_card">
+              <strong><h5>Other</h5></strong>
+            </div>
+            <div class="detail_skill detail_card">
+              Augmented Reality (AR), Virtual Reality (VR), Algorithms, Data Structures, Computer Graphics, Computer Vision, Shaders, Interaction Design (IxD), Machine Learning, Location-aware Technology, Location Services, Photogrammetry, HTC Vive, Computational Geometry, Geometry, Architecture, 3D Architecture, Unity Shaders, Color Theory, Color Schemes, Construction, Home Construction, Touchscreens, Installation, Digital Installation, Museums & Exhibits
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <h1 style="text-align:center;margin-top:40px;font-weight:bold;color:black;" id="education">Education</h1>
+      <hr style="width:100px; margin:auto; display: block;font-weight:bolder;">
+      
+    <div class="footer">
+        Footer
+    </div>
+</body>
+<script>
+    AOS.init();
+  </script>
+<script>
+    // Scroll to top button
+    // Get the button:
+    let mybutton = document.getElementById("scrollToTopBtn");
+    let topBar = document.getElementById("topBar");
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+        topBar.style.position = "fixed";
+        topBar.style.height = "65px";
+        topBar.style.width = "100vw";
+        topBar.style.backgroundColor = "white";
+        topBar.style.top = "0px";
+        topBar.style.zIndex = "95";
+        topBar.style.boxShadow = "0 10px 15px rgb(66 66 66 / 19%)";
+    } else {
+        mybutton.style.display = "none";
+        topBar.style.height = "0px";
+        topBar.style.width = "0px";
+        
+    }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+
+</script>
+<!-- MDB -->
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.js"
+></script>
+
+<!-- Navigation bar -->
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+
+<!--Counter-->
+<script>
+    var a = 0;
+$(window).scroll(function() {
+
+  var oTop = $('#counter').offset().top - window.innerHeight;
+  if (a == 0 && $(window).scrollTop() > oTop) {
+    $('.counter-value').each(function() {
+      var $this = $(this),
+        countTo = $this.attr('data-count');
+      $({
+        countNum: $this.text()
+      }).animate({
+          countNum: countTo
+        },
+
+        {
+
+          duration: 500,
+          easing: 'swing',
+          step: function() {
+            $this.text(Math.floor(this.countNum));
+          },
+          complete: function() {
+            $this.text(this.countNum + '+');
+            //alert('finished');
+          }
+
+        });
+    });
+    a = 1;
+  }
+
+});
+</script>
+
+</html>
