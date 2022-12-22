@@ -10,6 +10,8 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
     <!------ Include the above in your HEAD tag ---------->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
     <!-- MDB -->
@@ -44,9 +46,9 @@
         <a href="#experience">Experience</a>
         <a href="#skills">Skills</a>
         <a href="#education">Education</a>
-        <a href="tel:+1.888.867.7001">Contact</a>
     </div>
-    <div><span style="font-size:30px;cursor:pointer;color:rgb(4, 4, 19);position:fixed;top:2px;left:2px;z-index:97;" onclick="openNav()">&#9776;</span></div>
+    <div><span style="font-size:30px;cursor:pointer;color:rgb(4, 4, 19);position:fixed;top:2px;left:6px;z-index:97;" onclick="openNav()">&#9776;</span></div>
+    <a href="tel:+1.888.867.7001"><div><span style="font-size:25px;cursor:pointer;color:rgb(0 0 44);position:fixed;top:12px;right:12px;z-index:97;"><i class="fa-solid fa-phone"></i></span></div></a>
     <div class="logo">
         <div><img src="./logo.svg" alt="Logo"></div>
         <div class="logo_name">Developers</div>
@@ -110,11 +112,15 @@
                 <a href="#!" role="button">
                     <i class="fa-brands fa-linkedin-in"></i>
                 </a>
-                
             </div>
+            
         </div>
     </div>
+    <div class="hireBtn">
+      <div>Vladimir Mitrovic is now <span style="color: green; font-weight:bold;"> available </span> for hire</div>
+     <button class="custom-btn btn-10">Hire Vladimir</button>
 
+    </div>
     <section id="block_content">
         <div class="col-md-6 container">
             <blockquote class="blockstyle">
@@ -171,6 +177,21 @@
                 <div class="progress-value">6 yrs</div>
             </div>
         </div>
+    </div>
+    
+    <div class="second_misc loc" id="map">
+        <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">distance maps</a></iframe></div>
+    </div>
+
+    <div class="misc">
+      <div class="miscIn">
+        <div class="misc_head"><i class="fa-solid fa-circle"></i>Availability</div>
+        <div>Part-time</div>
+      </div>
+      <div class="miscIn">
+        <div class="misc_head"><i class="fa-solid fa-circle"></i>Preferred Environments</div>
+        <div>MacOS, IntelliJ, Unity3D</div>
+      </div>
     </div>
 
     <h1 style="text-align:center;margin-top:40px;font-weight:bold;color:black;" id="employment">Employment</h1>
@@ -530,5 +551,7 @@ $(window).scroll(function() {
 
 });
 </script>
+
+<!--Map-->
 
 </html>
